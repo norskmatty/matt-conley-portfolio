@@ -115,20 +115,20 @@ body, h3, h4, h5, .wrapper, .content, .projects, .projectwrapper, div {
 
 .content .projectwrapper .project1 {
 	order: 1;
-	background-image: url("..aboutme.jpg");
+	background-image: url("..aboutme.JPG");
 	border-radius: 5% 5% 50% 50%;
 }
 
 .content .projectwrapper .project2 {
 	order: 2;
 	border-radius: 45% 5% 45% 5%;
-	background-image: url("../images/nythack.jpg");
+	background-image: url("../images/nythack.JPG");
 }
 
 .content .projectwrapper .project3 {
 	order: 3;
 	border-radius: 20% 45% 20% 45%;
-	background-image: url("../images/karma.jpg");
+	background-image: url("../images/karma.JPG");
 }
 
 #karma {
