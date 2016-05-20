@@ -18,6 +18,10 @@ body, h3, h4, h5, .wrapper, .content, .projects, .projectwrapper, div {
 	.me {
 		width: 150px;
 	}
+
+	.content .projectwrapper {
+		flex-flow: column;
+	}
 }
 
 .wrapper {
@@ -91,9 +95,48 @@ body, h3, h4, h5, .wrapper, .content, .projects, .projectwrapper, div {
 
 .content .projectwrapper {
 	display: flex;
-	flex-direction: row;
+	flex-flow: row;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+.content .projectwrapper .project1, .project2, .project3 {
+	height: 200px;
+	width: 200px;
+	background-size: 100% 100%;
+	position: relative;
+	margin-right: 40px;
+	margin-left: 40px;
 }
 
 .content .projectwrapper .project1 {
-	background-image: url("file:///c:/users/v-macon/Thinkful/matt-conley-portfolio/images/")
+	order: 1;
+	background-image: url("file:///c:/users/v-macon/Thinkful/matt-conley-portfolio/images/aboutme.jpg");
+	border-radius: 5% 5% 50% 50%;
+}
+
+.content .projectwrapper .project2 {
+	order: 2;
+	border-radius: 45% 5% 45% 5%;
+	background-image: url("file:///c:/users/v-macon/Thinkful/matt-conley-portfolio/images/nythack.jpg");
+}
+
+.content .projectwrapper .project3 {
+	order: 3;
+	border-radius: 20% 45% 20% 45%;
+	background-image: url("file:///c:/users/v-macon/Thinkful/matt-conley-portfolio/images/karma.jpg");
+}
+
+#karma {
+	display: block;
+	height: 200px;
+	width: 200px;
+	border-radius: 20% 45% 20% 45%;
+}
+
+#aboutme {
+	display: block;
+	height: 200px;
+	width: 200px;
+	border-radius: 5% 5% 50% 50%;
 }
