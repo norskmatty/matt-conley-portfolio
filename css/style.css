@@ -6,6 +6,10 @@ html {
   
 }
 
+body {
+	overflow: auto;
+}
+
 body, h3, h4, h5, .wrapper, .content, .projects, .projectwrapper, div {
 	font-family: "Julius Sans One", sans-serif;
 	margin: 0;
@@ -33,7 +37,7 @@ body, h3, h4, h5, .wrapper, .content, .projects, .projectwrapper, div {
 	height: 1000px;
 	min-width: 13em;
 	width: 20%;
-	background-image: url("file:///c:/users/v-macon/Thinkful/matt-conley-portfolio/images/bluegradient.jpg");
+	background-image: url("../images/bluegradient.jpg");
 	background-repeat: no-repeat;
 	background-size: 50% 100%;
 	text-align: center;
@@ -55,7 +59,7 @@ body, h3, h4, h5, .wrapper, .content, .projects, .projectwrapper, div {
 }
 
 .content .background {
-	background-image: url("file:///c:/users/v-macon/Thinkful/matt-conley-portfolio/images/fjord.jpg");
+	background-image: url("../images/fjord.jpg");
 	background-size: cover;
 	background-position: center;
 	opacity: 0.6;
@@ -67,7 +71,7 @@ body, h3, h4, h5, .wrapper, .content, .projects, .projectwrapper, div {
 	margin-top: -62rem;
 	padding-left: 1.5rem;
 	font-size: 4em;
-	font-family: "Cedarville Cursive";
+	font-family: "Cedarville Cursive", sans-serif;
 }
 
 .content .aboutme h4 {
@@ -89,15 +93,15 @@ body, h3, h4, h5, .wrapper, .content, .projects, .projectwrapper, div {
 	position: relative;
 	text-align: center;
 	font-size: 4em;
-	font-family: "Cedarville Cursive";
-	padding-top: 2rem;
+	font-family: "Cedarville Cursive", sans-serif;
+	padding-top: 6rem;
 }
 
 .content .projectwrapper {
 	display: flex;
 	flex-flow: row;
 	justify-content: center;
-	margin-top: 40px;
+	margin-top: 6em;
 }
 
 .content .projectwrapper .project1, .project2, .project3 {
@@ -111,20 +115,20 @@ body, h3, h4, h5, .wrapper, .content, .projects, .projectwrapper, div {
 
 .content .projectwrapper .project1 {
 	order: 1;
-	background-image: url("file:///c:/users/v-macon/Thinkful/matt-conley-portfolio/images/aboutme.jpg");
+	background-image: url("..aboutme.jpg");
 	border-radius: 5% 5% 50% 50%;
 }
 
 .content .projectwrapper .project2 {
 	order: 2;
 	border-radius: 45% 5% 45% 5%;
-	background-image: url("file:///c:/users/v-macon/Thinkful/matt-conley-portfolio/images/nythack.jpg");
+	background-image: url("../images/nythack.jpg");
 }
 
 .content .projectwrapper .project3 {
 	order: 3;
 	border-radius: 20% 45% 20% 45%;
-	background-image: url("file:///c:/users/v-macon/Thinkful/matt-conley-portfolio/images/karma.jpg");
+	background-image: url("../images/karma.jpg");
 }
 
 #karma {
@@ -139,4 +143,48 @@ body, h3, h4, h5, .wrapper, .content, .projects, .projectwrapper, div {
 	height: 200px;
 	width: 200px;
 	border-radius: 5% 5% 50% 50%;
+}
+
+.end {
+	width: 100%;
+	height: 250px;
+}
+
+.end .flexwrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.end #twitter {
+	height: 50px;
+	width: 50px;
+	display: 2;
+}
+
+.end #email {
+	height: 60px;
+	width: 60px;
+	display: 3;
+}
+
+.end #hrleft {
+	display: 1;
+	width: 30%;
+	height: 2px;
+	margin-right: 3%;
+}
+
+.end #hrright {
+	display: 4;
+	width: 30%;
+	height: 2px;
+	margin-left: 3%;
+}
+
+.end h4 {
+	margin-top: 10px;
+	font-family: "Cedarville Cursive", sans-serif;
+	font-size: 3em;
+	text-align: center;
 }
