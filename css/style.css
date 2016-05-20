@@ -115,7 +115,7 @@ body, h3, h4, h5, .wrapper, .content, .projects, .projectwrapper, div {
 
 .content .projectwrapper .project1 {
 	order: 1;
-	background-image: url("..aboutme.JPG");
+	background-image: url("../images/aboutme.JPG");
 	border-radius: 5% 5% 50% 50%;
 }
 
